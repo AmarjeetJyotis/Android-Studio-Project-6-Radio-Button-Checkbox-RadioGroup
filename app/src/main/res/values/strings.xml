@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">radio button</string>
+    <string name="select_the_subject">select the subject</string>
+    <string name="mobile_app_development">mobile_app_development</string>
+    <string name="aiml">AIML</string>
+    <string name="java_programming">java_programming</string>
+    <string name="submit">submit</string>
+    <string name="clear">clear</string>
+</resources>

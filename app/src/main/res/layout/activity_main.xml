@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_the_subject"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/color_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <RadioButton
+            android:id="@+id/red_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_app_development" />
+
+        <RadioButton
+            android:id="@+id/blue_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aiml" />
+
+        <RadioButton
+            android:id="@+id/green_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/java_programming" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/color_radio_group"
+        android:text="@string/submit"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/color_radio_group"
+        android:layout_toEndOf="@id/submit_button"
+        android:text="@string/clear"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>
