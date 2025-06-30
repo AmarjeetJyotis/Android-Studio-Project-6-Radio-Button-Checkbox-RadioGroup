@@ -44,6 +44,21 @@ Open the project in Android Studio.
 
 Build and run the app on an emulator or physical device.
 
+## 🧑‍💻 Author
+
+**Amarjeet Kumar**  
+**UID:** 21BCS10768  
+**Department of Computer Science & Engineering**  
+**Chandigarh University**
+
+**Portfolio:** [https://amarjeetkr.vercel.app/](https://amarjeetkr.vercel.app/)  
+**LinkTree:** [https://linktr.ee/AmarjeetKumarJyotish](https://linktr.ee/AmarjeetKumarJyotish)  
+**GitHub:** [https://github.com/AmarjeetJyotis](https://github.com/AmarjeetJyotis)  
+**LinkedIn:** [https://www.linkedin.com/in/amarjeet-jyotish/](https://www.linkedin.com/in/amarjeet-jyotish/)  
+**GeeksforGeeks:** [https://www.geeksforgeeks.org/user/amarjeetjyotish/](https://www.geeksforgeeks.org/user/amarjeetjyotish/)  
+**LeetCode:** [https://leetcode.com/u/AmarjeetJyotish/](https://leetcode.com/u/AmarjeetJyotish/)
+
+
 📁 Project Structure
 pgsql
 Copy
@@ -63,10 +78,6 @@ User selects a radio button corresponding to a subject.
 Tapping submit displays a toast message or performs an action (add your logic).
 
 Tapping clear unchecks all radio buttons.
-
-🧑‍💻 Author
-Amarjeet Kumar
-Check my profile: https://linktr.ee/AmarjeetKumarJyotish
 
 📄 License
 This project is open-source and available under the MIT License.
